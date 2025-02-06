@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+    color: #0275d8;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Produto */
+.product {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Preço */
+.price {
+    font-size: 22px;
+    color: #d9534f;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Botão de compra */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #4cae4c;
+}
+
+/* Vídeo */
+video {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
